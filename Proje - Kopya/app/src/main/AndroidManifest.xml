@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proje">
+
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proje">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".domates"></activity>
+        <activity android:name=".aloevera"></activity>
+        <activity android:name=".begonya"></activity>
+        <activity android:name=".biber"></activity>
+        <activity android:name=".ceviz"></activity>
+        <activity android:name=".cilek"></activity>
+        <activity android:name=".dut"></activity>
+        <activity android:name=".elma"></activity>
+        <activity android:name=".erik"></activity>
+        <activity android:name=".fasulye"></activity>
+        <activity android:name=".glayol"></activity>
+        <activity android:name=".gul"></activity>
+        <activity android:name=".havuc"></activity>
+        <activity android:name=".ıspanak"></activity>
+        <activity android:name=".kaktus"></activity>
+        <activity android:name=".karanfil"></activity>
+        <activity android:name=".karnabahar"></activity>
+        <activity android:name=".karpuz"></activity>
+        <activity android:name=".kayisi"></activity>
+        <activity android:name=".kiraz"></activity>
+        <activity android:name=".lale"></activity>
+        <activity android:name=".patates"></activity>
+        <activity android:name=".patlican"></activity>
+        <activity android:name=".petunya"></activity>
+        <activity android:name=".portakal"></activity>
+        <activity android:name=".salatalik"></activity>
+        <activity android:name=".sardunya"></activity>
+        <activity android:name=".sogan"></activity>
+        <activity android:name=".sumbul"></activity>
+        <activity android:name=".uzum"></activity>
+        <activity android:name=".domtessulama"></activity>
+        <activity android:name=".domtesgubreleme"></activity>
+        <activity android:name=".domateshastalik"></activity>
+        <activity android:name=".bibersulama"></activity>
+        <activity android:name=".bibergubreleme"></activity>
+        <activity android:name=".biberhastalik"></activity>
+        <activity android:name=".fasulyesulama"></activity>
+        <activity android:name=".fasulyegubrelem"></activity>
+        <activity android:name=".fasulyehastalik"></activity>
+        <activity android:name=".havucsulama"></activity>
+        <activity android:name=".havucgubreleme"></activity>
+        <activity android:name=".havuchastalik"></activity>
+        <activity android:name=".ispanaksulama"></activity>
+        <activity android:name=".ispanakgubreleme"></activity>
+        <activity android:name=".ispanakhastalik"></activity>
+        <activity android:name=".karnabaharsulama"></activity>
+        <activity android:name=".karnabahargubreleme"></activity>
+        <activity android:name=".karnabaharhastalik"></activity>
+        <activity android:name=".patatessulama"></activity>
+        <activity android:name=".patatesgubreleme"></activity>
+        <activity android:name=".patateshastalik"></activity>
+        <activity android:name=".patlicansulama"></activity>
+        <activity android:name=".patlicangubreleme"></activity>
+        <activity android:name=".patlicanhastalik"></activity>
+        <activity android:name=".salataliksulama"></activity>
+        <activity android:name=".salatalikgubreleme"></activity>
+        <activity android:name=".salatalikhastalik"></activity>
+        <activity android:name=".sogansulama"></activity>
+        <activity android:name=".sogangubreleme"></activity>
+        <activity android:name=".soganhastalik"></activity>
+        <activity android:name=".cileksulama"></activity>
+        <activity android:name=".cilekgubreleme"></activity>
+        <activity android:name=".cilekhastalik"></activity>
+        <activity android:name=".cevizsulama"></activity>
+        <activity android:name=".cevizgubreleme"></activity>
+        <activity android:name=".cevizhastalik"></activity>
+        <activity android:name=".dutsulama"></activity>
+        <activity android:name=".dutgubreleme"></activity>
+        <activity android:name=".duthastalik"></activity>
+        <activity android:name=".elmasulama"></activity>
+        <activity android:name=".elmagubreleme"></activity>
+        <activity android:name=".elmahastalik"></activity>
+        <activity android:name=".eriksulama"></activity>
+        <activity android:name=".erikgubreleme"></activity>
+        <activity android:name=".erikhastalik"></activity>
+        <activity android:name=".karpuzsulama"></activity>
+        <activity android:name=".karpuzgubreleme"></activity>
+        <activity android:name=".karpuzhastalik"></activity>
+        <activity android:name=".kayisisulama"></activity>
+        <activity android:name=".kayisigubreleme"></activity>
+        <activity android:name=".kayisihastalik"></activity>
+        <activity android:name=".kirazsulama"></activity>
+        <activity android:name=".kirazgubreleme"></activity>
+        <activity android:name=".kirazhastalik"></activity>
+        <activity android:name=".portakalsulama"></activity>
+        <activity android:name=".portakalgubreleme"></activity>
+        <activity android:name=".portakalhastalik"></activity>
+        <activity android:name=".uzumsulama"></activity>
+        <activity android:name=".uzumgubreleme"></activity>
+        <activity android:name=".uzumhastalik"></activity>
+        <activity android:name=".aloeverasulama"></activity>
+        <activity android:name=".aloeveragubreleme"></activity>
+        <activity android:name=".aloeverahastalik"></activity>
+        <activity android:name=".begonyasulama"></activity>
+        <activity android:name=".begonyagubreleme"></activity>
+        <activity android:name=".begonyahastalik"></activity>
+        <activity android:name=".glayolsulama"></activity>
+        <activity android:name=".glayolgubreleme"></activity>
+        <activity android:name=".glayolhastalik"></activity>
+        <activity android:name=".gulsulama"></activity>
+        <activity android:name=".gulgubreleme"></activity>
+        <activity android:name=".gulhastalik"></activity>
+        <activity android:name=".kaktussulama"></activity>
+        <activity android:name=".kaktusgubreleme"></activity>
+        <activity android:name=".kaktushastalik"></activity>
+        <activity android:name=".karanfilsulama"></activity>
+        <activity android:name=".karanfilgubreleme"></activity>
+        <activity android:name=".karanfilhastalik"></activity>
+        <activity android:name=".lalesulama"></activity>
+        <activity android:name=".lalegubreleme"></activity>
+        <activity android:name=".lalehastalik"></activity>
+        <activity android:name=".petunyasulama"></activity>
+        <activity android:name=".petunyagubreleme"></activity>
+        <activity android:name=".petunyahastalik"></activity>
+        <activity android:name=".sardunyasulama"></activity>
+        <activity android:name=".sardunyagubreleme"></activity>
+        <activity android:name=".sardunyahastalik"></activity>
+        <activity android:name=".sumbulsulama"></activity>
+        <activity android:name=".sumbulgubreleme"></activity>
+        <activity android:name=".sumbulhastalik"></activity>
+        <activity android:name=".domateskanser"></activity>
+        <activity android:name=".domateskulleme"></activity>
+        <activity android:name=".domateskursunikuf"></activity>
+        <activity android:name=".domatesyaprakkufu"></activity>
+        <activity android:name=".domatesyaprakyanikligi"></activity>
+        <activity android:name=".domateskokcuruklugu"></activity>
+        <activity android:name=".biberbenek"></activity>
+        <activity android:name=".bibergalsinegi"></activity>
+        <activity android:name=".biberkanser"></activity>
+        <activity android:name=".biberkokcuruklugu"></activity>
+        <activity android:name=".biberkokyanikligi"></activity>
+        <activity android:name=".bibernekroz"></activity>
+        <activity android:name=".fasulyeadiyaprakyanikligi"></activity>
+        <activity android:name=".fasulyeantraknozu"></activity>
+        <activity android:name=".fasulyehaneyanikligi"></activity>
+        <activity android:name=".fasulyekokbogazyanikligi"></activity>
+        <activity android:name=".fasulyepas"></activity>
+        <activity android:name=".havucbeyazcurugu"></activity>
+        <activity android:name=".havuckulleme"></activity>
+        <activity android:name=".havucsinegi"></activity>
+        <activity android:name=".havucyumusakcurukluk"></activity>
+        <activity android:name=".ispanakmildiyo"></activity>
+        <activity android:name=".ispanakthrips"></activity>
+        <activity android:name=".ispanakyapraklekesi"></activity>
+        <activity android:name=".karnabaharalternea"></activity>
+        <activity android:name=".karnabaharcokerten"></activity>
+        <activity android:name=".karnabaharmozaik"></activity>
+        <activity android:name=".karnabaharsiyahcurukluk"></activity>
+        <activity android:name=".karnabaharyapraklekesi"></activity>
+        <activity android:name=".patatesadiuyuz"></activity>
+        <activity android:name=".patateshalkacuruklugu"></activity>
+        <activity android:name=".patateskahverengicuruklugu"></activity>
+        <activity android:name=".patateskokbogazınekrozu"></activity>
+        <activity android:name=".patateskurucurukluk"></activity>
+        <activity android:name=".patatessigil"></activity>
+        <activity android:name=".patlicanbeyazsinek"></activity>
+        <activity android:name=".patlicanerkenyanikligi"></activity>
+        <activity android:name=".patlicankokcuruklugu"></activity>
+        <activity android:name=".patlicankulleme"></activity>
+        <activity android:name=".patlicanyaprakbiti"></activity>
+        <activity android:name=".salatalikalternarya"></activity>
+        <activity android:name=".salatalikantraknoz"></activity>
+        <activity android:name=".salatalikkokcuruklugu"></activity>
+        <activity android:name=".salatalikmozaik"></activity>
+        <activity android:name=".salatalikyapraklekesi"></activity>
+        <activity android:name=".soganbeyazcurukluk"></activity>
+        <activity android:name=".sogankursunikuf"></activity>
+        <activity android:name=".soganpas"></activity>
+        <activity android:name=".sogansinegi"></activity>
+        <activity android:name=".sogansurmesi"></activity>
+        <activity android:name=".cilektripsi"></activity>
+        <activity android:name=".cilekkokcuruklugu"></activity>
+        <activity android:name=".cilekkulleme"></activity>
+        <activity android:name=".cilekyapraklekesi"></activity>
+        <activity android:name=".cilekkursunikuf"></activity>
+        <activity android:name=".cevizantraknozu"></activity>
+        <activity android:name=".cevizkokuru"></activity>
+        <activity android:name=".cevizyaniklik"></activity>
+        <activity android:name=".cevizyaprakbukenler"></activity>
+        <activity android:name=".dutkabuklubit"></activity>
+        <activity android:name=".dutkokcuruklugu"></activity>
+        <activity android:name=".dutkokuru"></activity>
+        <activity android:name=".elmalaternarya"></activity>
+        <activity android:name=".elmaatesyanikligi"></activity>
+        <activity android:name=".elmakaralekesi"></activity>
+        <activity android:name=".elmaklorotik"></activity>
+        <activity android:name=".elmamumya"></activity>
+        <activity android:name=".elmapas"></activity>
+        <activity android:name=".erikcep"></activity>
+        <activity android:name=".erikkosnil"></activity>
+        <activity android:name=".erikmumya"></activity>
+        <activity android:name=".erikpas"></activity>
+        <activity android:name=".eriksitospora"></activity>
+        <activity android:name=".karpuzalternarya"></activity>
+        <activity android:name=".karpuzanraknoz"></activity>
+        <activity android:name=".karpuzkokcuruklugu"></activity>
+        <activity android:name=".karpuzmeyvelekesi"></activity>
+        <activity android:name=".karpuzmozaik"></activity>
+        <activity android:name=".kayisikosnil"></activity>
+        <activity android:name=".kayisimonilya"></activity>
+        <activity android:name=".kayisisarka"></activity>
+        <activity android:name=".kayisisitospora"></activity>
+        <activity android:name=".kayisiyaprakdelen"></activity>
+        <activity android:name=".kirazkivrilma"></activity>
+        <activity android:name=".kirazmonilya"></activity>
+        <activity android:name=".kirazyaprakbuken"></activity>
+        <activity android:name=".kirazyaprakdelen"></activity>
+        <activity android:name=".kirazzamklanma"></activity>
+        <activity android:name=".portakalkahverngileke"></activity>
+        <activity android:name=".portakalkirisiklik"></activity>
+        <activity android:name=".portakalkursunikuf"></activity>
+        <activity android:name=".portakalsatsuma"></activity>
+        <activity android:name=".portakaluckurutan"></activity>
+        <activity android:name=".uzumantraknozu"></activity>
+        <activity android:name=".uzumkav"></activity>
+        <activity android:name=".uzumkulleme"></activity>
+        <activity android:name=".uzumkursunikuf"></activity>
+        <activity android:name=".uzummildiyo"></activity>
+        <activity android:name=".aloeveraantraknoz"></activity>
+        <activity android:name=".aloeverakokcuruklugu"></activity>
+        <activity android:name=".aloeverapas"></activity>
+        <activity android:name=".aloeverayaprakbiti"></activity>
+        <activity android:name=".begonyagrikalip"></activity>
+        <activity android:name=".begonyakulleme"></activity>
+        <activity android:name=".begonyasiyahkokcurumesi"></activity>
+        <activity android:name=".begonyayapraklekesi"></activity>
+        <activity android:name=".glayolfusiruim"></activity>
+        <activity android:name=".glayolkursunikuf"></activity>
+        <activity android:name=".glayolkurucurukluk"></activity>
+        <activity android:name=".glayolpas"></activity>
+        <activity android:name=".glayolvirüs"></activity>
+        <activity android:name=".gulgovdekanseri"></activity>
+        <activity android:name=".gulkulleme"></activity>
+        <activity android:name=".gulmidilyo"></activity>
+        <activity android:name=".gulpas"></activity>
+        <activity android:name=".gulvirus"></activity>
+        <activity android:name=".kaktusasirisulama"></activity>
+        <activity android:name=".kaktusfusarium"></activity>
+        <activity android:name=".kaktusgunesyanikligi"></activity>
+        <activity android:name=".kaktuskursunikuf"></activity>
+        <activity android:name=".kaktusyetersizsulama"></activity>
+        <activity android:name=".karanfilcokerten"></activity>
+        <activity android:name=".karanfilhalkalileke"></activity>
+        <activity android:name=".karanfilkursunikuf"></activity>
+        <activity android:name=".karanfilpas"></activity>
+        <activity android:name=".lalecineria"></activity>
+        <activity android:name=".lalekurucurukluk"></activity>
+        <activity android:name=".lalesolani"></activity>
+        <activity android:name=".laletuliparum"></activity>
+        <activity android:name=".laletullipea"></activity>
+        <activity android:name=".petunyagricuruk"></activity>
+        <activity android:name=".petunyasiyahbacak"></activity>
+        <activity android:name=".petunyazararlilar"></activity>
+        <activity android:name=".sardunyaalternaria"></activity>
+        <activity android:name=".sardunyabeyazcurukluk"></activity>
+        <activity android:name=".sardunyakursunikuf"></activity>
+        <activity android:name=".sardunyapas"></activity>
+        <activity android:name=".sardunyayapraklekesi"></activity>
+        <activity android:name=".sumbulcineria"></activity>
+        <activity android:name=".sumbulpythium"></activity>
+        <activity android:name=".sumbulrhiz"></activity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

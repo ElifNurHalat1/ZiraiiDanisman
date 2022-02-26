@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaplan">
+
+    <ImageView
+        android:id="@+id/domatesRes"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="350dp"
+        android:src="@drawable/laleyetistiriciligi"></ImageView>
+
+    <TextView
+        android:id="@+id/dtext"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/domatesRes"
+        android:layout_alignStart="@+id/domatesRes"
+        android:layout_alignEnd="@+id/domatesRes"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-40dp"
+        android:layout_marginTop="-350dp"
+        android:layout_marginEnd="-60dp"
+        android:layout_marginBottom="300dp"
+        android:padding="10dp"
+        android:text="Hangi konuda danışmanlık almak istersiniz?"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/Sulama"
+        android:layout_width="188dp"
+        android:layout_height="121dp"
+        android:layout_below="@+id/dtext"
+        android:layout_alignStart="@+id/dtext"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="-300dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sulama" />
+
+    <ImageButton
+        android:id="@+id/Gübreleme"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Sulama"
+        android:layout_alignStart="@+id/Sulama"
+        android:layout_alignEnd="@+id/Sulama"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-200dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="110dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gubreleme" />
+
+
+    <ImageButton
+        android:id="@+id/Hastalık"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Gübreleme"
+        android:layout_alignStart="@+id/Gübreleme"
+        android:layout_alignEnd="@+id/Gübreleme"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-110dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/hastalik" />
+
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaplan">
+
+    <TextView
+        android:id="@+id/texthastalik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="660dp"
+        android:text="Bitkinizdeki hastalığı seçer misiniz?"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <ImageButton
+        android:id="@+id/hastalik1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/texthastalik"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-650dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="360dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gulgovdekanseri" />
+
+    <ImageButton
+        android:id="@+id/hastalik2"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/texthastalik"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-200dp"
+        android:layout_marginTop="-650dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="360dp"
+        android:layout_toEndOf="@+id/hastalik1"
+        android:scaleType="fitXY"
+        android:src="@drawable/gulkulleme" />
+
+
+    <ImageButton
+        android:id="@+id/hastalik3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hastalik1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-360dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="220dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gulmidilyo"/>
+
+
+    <ImageButton
+        android:id="@+id/hastalik4"
+        android:layout_width="195dp"
+        android:layout_height="190dp"
+        android:layout_below="@+id/hastalik2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-200dp"
+        android:layout_marginTop="-360dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="220dp"
+        android:layout_toEndOf="@+id/hastalik3"
+        android:scaleType="fitXY"
+        android:src="@drawable/gulpas" />
+
+    <ImageButton
+        android:id="@+id/hastalik5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hastalik3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-220dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gulvirus" />
+
+</RelativeLayout>
